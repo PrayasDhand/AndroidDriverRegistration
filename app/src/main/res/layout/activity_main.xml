@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:backgroundTint="#ffffff"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="127dp"
+        android:background="#0C0000"
+
+        app:srcCompat="@drawable/baseline_directions_car_24" />
+
+    <TextView
+        android:id="@+id/landingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="388dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to Driver Registration"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontVariationSettings="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+
+        android:layout_width="198dp"
+        android:layout_height="93dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="139dp"
+
+
+        android:backgroundTintMode="add"
+        android:fontFamily="sans-serif-black"
+        android:onClick="startRegistrationClick"
+        android:text="Register Here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#100000"
+        android:textColorHighlight="#F6F3F3"
+
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

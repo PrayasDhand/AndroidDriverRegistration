@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE9E9"
+    android:backgroundTint="#ECE9E9"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="5dp"
+        android:background="#120202"
+        android:src="@drawable/baseline_directions_car_24" />
+
+    <EditText
+        android:id="@+id/fname2"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="First name"
+        android:inputType="text"
+        android:text="First Name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Please Add your License below!!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="#D30808"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="onChooseImageClick"
+        android:text="Choose Image" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/chooseImageButton"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="registerDriver"
+        android:text="Register " />
+</LinearLayout>
+
