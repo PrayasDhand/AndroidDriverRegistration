@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.driverregistration.RegistrationActivity" />
+        <activity android:name="com.example.driverregistration.Drivers" />
     </application>
 
 </manifest>

@@ -13,7 +13,7 @@ public class Database extends SQLiteOpenHelper {
                     DatabaseHelper.COLUMN_LAST_NAME + " TEXT," +
                     DatabaseHelper.COLUMN_AGE + " INTEGER," +
                     DatabaseHelper.COLUMN_MOBILE_NUMBER + " TEXT," +
-                    DatabaseHelper.COLUMN_LICENSE_IMAGE_PATH + " BLOB)";
+                    DatabaseHelper.COLUMN_LICENSE_IMAGE_PATH + " BLOB," + DatabaseHelper.COLUMN_VEHICLE_TYPE + " TEXT")";
 
     private static final String SQL_DELETE_ENTRIES =
             "DROP TABLE IF EXISTS " + DatabaseHelper.TABLE_NAME;

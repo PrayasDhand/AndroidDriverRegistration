@@ -8,6 +8,7 @@ public class DatabaseHelper {
                 public static final String COLUMN_AGE = "age";
                 public static final String COLUMN_MOBILE_NUMBER = "mobileNumber";
                 public static final String COLUMN_LICENSE_IMAGE_PATH = "license_image_path";
+    public static final String COLUMN_VEHICLE_TYPE = "license_image_path";
 
 
 

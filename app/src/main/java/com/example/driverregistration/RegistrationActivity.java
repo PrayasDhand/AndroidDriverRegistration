@@ -85,7 +85,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
                 Uri selectedImageUri = data != null ? data.getData() : null;
                 InputStream iStream = getContentResolver().openInputStream(selectedImageUri);
-                licenseImage = getBytes(iStream);
+                licenseImage = getBytes(iStream != null ? iStream : null);
             } catch (IOException e) {
                 e.printStackTrace();
             }
